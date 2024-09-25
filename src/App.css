@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Playwrite+DE+Grund:wght@100..400&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Playwrite DE Grund", cursive;
+  font-size: 16px;
+}
+
+:root {
+  --primary-color: #3d2a17;
+  --secondary-color: #ffc300;
+}
+
+.wrapper {
+  margin: 0 auto;
+}
+
+.content-product {
+  border: 1px solid var(--primary-color);
+  padding: 12px 24px;
+  border-radius: 20px;
+}
+
+.product-img img {
+  max-width: 100px;
+  height: auto;
+  object-fit: cover;
+}
+
+.increment,
+.decrement {
+  padding: 12px 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  background-color: var(--secondary-color);
+  border-radius: 10px;
+}
+
+.product-info {
+  width: 50%;
+}
+
+.checkout-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--secondary-color);
+  color: black;
+  padding: 12px 24px;
+  border-radius: 10px;
+  font-weight: bolder;
+}
+
+@media (max-width: 480px) {
+  .total-price {
+    flex-direction: row !important;
+    gap: 5px;
+  }
+}
