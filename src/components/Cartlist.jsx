@@ -31,7 +31,7 @@ function Cartlist ({onCartUpdate,onCheckoutUpdate}){
 
  async function GetProducts (){
     try {
-        const url ="https://fakestoreapi.com/products?limit=3"
+        const url ="https://fakestoreapi.com/products?limit=5"
         const response = await fetch(url);
         const data = await response.json();
         setProducts(data)
