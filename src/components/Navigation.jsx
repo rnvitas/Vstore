@@ -5,8 +5,8 @@ function Navigation ({countcart}){
  
     return(
         <>
-        <header className="wrapper container">
-        <div className={`${styles.navbar}  my-3 container py-3  bg-white`}>
+        <header className="wrapper container ">
+        <div className={`${styles.navbar}  my-3 container py-3`}>
         <nav className="flex px-5 justify-between items-center ">
         <div className="logo font-extrabold">
             <h1 className={`${styles.logo}`}>Vitarts</h1>
