@@ -56,6 +56,14 @@ body {
   font-weight: bolder;
 }
 
+.ttl-price-container {
+  background-color: var(--primary-color);
+  border-radius: 20px;
+  color: white !important;
+  padding: 12px 24px;
+  width: 100%;
+}
+
 @media (max-width: 480px) {
   .total-price {
     flex-direction: row !important;
